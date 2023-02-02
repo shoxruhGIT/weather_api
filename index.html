@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Weather</title>
+</head>
+<body>
+
+  <form>
+    <input type="text" id="input" placeholder="shaharni kiriting"> <br>
+    <input type="submit" id="btn" value="search" style="display: none;">
+  <div class="info">
+
+    <div class="lds-spinner" id="loader" style="display: none;"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <div>
+      <h1 class="city"></h1>
+      <h2 class="temp"></h2>
+    </div>
+
+  </div>
+  </form>
+  <script src="wheather.js"></script>
+</body>
+</html>
